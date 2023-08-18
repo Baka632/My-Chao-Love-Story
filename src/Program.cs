@@ -1,4 +1,5 @@
-﻿using System.Collections.Immutable;
+﻿using System;
+using System.Collections.Immutable;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using MyChaoLoveStory;
@@ -45,6 +46,10 @@ while (true)
     else if (key.Key is ConsoleKey.D2)
     {
         isDoctor = false;
+    }
+    else if (key.Key == ConsoleKey.Escape)
+    {
+        break;
     }
     else
     {
