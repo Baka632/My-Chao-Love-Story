@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyChaoLoveStory", "MyChaoLoveStory.csproj", "{AC1A9BB9-B984-440C-B08A-91D425EA643E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyChaoLoveStory", "src\MyChaoLoveStory.csproj", "{B4CB667D-DD05-4035-B39B-FC0F99D4E365}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{3B0CA3D1-9DAE-40B5-83C0-3D64F04940A1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AC1A9BB9-B984-440C-B08A-91D425EA643E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC1A9BB9-B984-440C-B08A-91D425EA643E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC1A9BB9-B984-440C-B08A-91D425EA643E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC1A9BB9-B984-440C-B08A-91D425EA643E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CB667D-DD05-4035-B39B-FC0F99D4E365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CB667D-DD05-4035-B39B-FC0F99D4E365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CB667D-DD05-4035-B39B-FC0F99D4E365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CB667D-DD05-4035-B39B-FC0F99D4E365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

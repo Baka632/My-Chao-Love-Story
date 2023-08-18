@@ -30,6 +30,7 @@ while (true)
     Console.WriteLine("My chao love story");
     Console.WriteLine("By Baka632");
     Console.WriteLine("GitHub: https://github.com/Baka632");
+    Console.WriteLine("仅供图君一笑，不必照单全收 :)");
     Console.WriteLine();
     Console.WriteLine("选择模式");
     Console.WriteLine("(1) 博士");
